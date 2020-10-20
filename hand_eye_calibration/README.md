@@ -11,7 +11,7 @@
 |文件名/文件夹名|功能|
 |:--|:--|
 |HandEyeCalibration.cpp|程序主界面和主要逻辑的实现|
-|TSAIleastSquareCalibration.cpp棋盘角点检测算法的实现|
+|TSAIleastSquareCalibration.cpp|标定算法的实现|
 |res|图标资源文件夹|
 
 ## 软件运行截图：

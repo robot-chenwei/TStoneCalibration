@@ -155,7 +155,7 @@
      <rect>
       <x>230</x>
       <y>0</y>
-      <width>361</width>
+      <width>241</width>
       <height>80</height>
      </rect>
     </property>
@@ -165,7 +165,7 @@
      </font>
     </property>
     <property name="title">
-     <string>OPTIONS</string>
+     <string>CAMERA</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -181,6 +181,9 @@
      </property>
      <property name="text">
       <string>2 Coefficients</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
      </property>
     </widget>
     <widget class="QRadioButton" name="k_3">
@@ -229,38 +232,6 @@
      </property>
      <property name="text">
       <string>Fisheye</string>
-     </property>
-    </widget>
-    <widget class="QRadioButton" name="k_eye_in_hand">
-     <property name="geometry">
-      <rect>
-       <x>240</x>
-       <y>20</y>
-       <width>121</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>eye-in-hand</string>
-     </property>
-    </widget>
-    <widget class="QRadioButton" name="k_eye_to_hand">
-     <property name="enabled">
-      <bool>true</bool>
-     </property>
-     <property name="geometry">
-      <rect>
-       <x>240</x>
-       <y>50</y>
-       <width>121</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>eye-to-hand</string>
-     </property>
-     <property name="checked">
-      <bool>true</bool>
      </property>
     </widget>
    </widget>
@@ -431,9 +402,9 @@
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
+        <y>-1</y>
         <width>248</width>
-        <height>100</height>
+        <height>101</height>
        </rect>
       </property>
       <property name="font">
@@ -605,6 +576,59 @@
      </property>
      <property name="text">
       <string>单目纠正</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="OPTIONS_2">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>0</y>
+      <width>131</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+     </font>
+    </property>
+    <property name="title">
+     <string>HAND-EYE</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <widget class="QRadioButton" name="k_eye_to_hand">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>eye-to-hand</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="k_eye_in_hand">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>eye-in-hand</string>
      </property>
     </widget>
    </widget>
